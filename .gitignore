@@ -1,0 +1,3 @@
+# Local Codex skill-installation files do not belong in the public profile.
+.agents/
+skills-lock.json
