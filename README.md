@@ -1,33 +1,14 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/instrument-panel-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/instrument-panel-light.svg">
-  <img alt="mikotokuroko — personal tools field manual" src="assets/instrument-panel-light.svg" width="100%">
-</picture>
+<img src="assets/cozy-room.svg" width="100%" alt="A dreamy pastel creative room at sunset with glowing screens, plants, books, music controls, and a sleeping desktop creature.">
 
-<br>
+<p align="center">hoi — building playful tools for macOS, the web, and Codex.</p>
 
-## About me
+### [Apple Music Local](https://github.com/mikotokuroko/apple-music-local-plugin)
+Control a personal Apple Music library from a local Codex session.
 
-I build small personal tools that make everyday software more useful and enjoyable. I care about local-first design, clear controls, and thoughtful details.
+### [Ark Codex Deskpet](https://github.com/mikotokuroko/Ark-codex-skill)
+Animated Arknights-inspired desktop pets for macOS.
 
-## Featured projects
+### [Safari Dark Mode](https://github.com/mikotokuroko/safari-dark-mode)
+A focused dark-mode extension for Safari.
 
-### [Apple Music Local Plugin](https://github.com/mikotokuroko/apple-music-local-plugin)
-
-A Windows-only local Codex plugin for browsing and managing Apple Music through `applemusic-mcp`.
-
-### [BMTI](https://github.com/mikotokuroko/BMTI)
-
-A playful personality test made for friends.
-
-## GitHub activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/field-signal.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/field-signal.svg">
-  <img alt="Weekly GitHub language field signal" src="assets/field-signal.svg" width="100%">
-</picture>
-
-<p align="center">
-  <sub>Open to thoughtful collaborations and interesting problems.</sub>
-</p>
+<p align="center"><sub>@mikotokuroko</sub></p>
