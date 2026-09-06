@@ -4,12 +4,11 @@
   <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.title{fill:#3d1977;font-size:26px;font-weight:700}.copy{fill:#5c3982;font-size:18px}.tiny{fill:#72538f;font-size:14px;letter-spacing:1px}</style>
   <image href="third-party/needy-streamer-window.png" width="960" height="408" preserveAspectRatio="none"/>
   <rect x="54" y="102" width="202" height="202" rx="9" fill="#ff9fc9"/>
-  <path d="M82 264c35-76 80-76 146 0" fill="none" stroke="#8ce9ef" stroke-width="13" stroke-linecap="round"/>
-  <circle cx="122" cy="193" r="20" fill="#fff0fa"/><circle cx="189" cy="193" r="20" fill="#fff0fa"/>
-  <text x="298" y="142" class="tiny">✩♬ ₊˚.🎧⋆☾⋆⁺₊✧</text>
-  <text x="298" y="190" class="title">» peaceful playlist mix «</text>
-  <text x="298" y="222" class="copy">weekly playlist refresh is ready</text>
-  <text x="298" y="256" class="tiny">ON ROTATION · APPLE MUSIC PLAYLIST</text>
+  <circle cx="155" cy="203" r="66" fill="#3d1977" stroke="#8ce9ef" stroke-width="8"/><circle cx="155" cy="203" r="43" fill="none" stroke="#a98dd1" stroke-width="5"/><circle cx="155" cy="203" r="13" fill="#ff9fc9"/><path d="M194 142v55c0 15-19 18-19 4 0-10 14-10 19-3" fill="none" stroke="#fff0fa" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="526" y="142" text-anchor="middle" class="tiny">✩♬ ₊˚.🎧⋆☾⋆⁺₊✧</text>
+  <text x="526" y="190" text-anchor="middle" class="title">» peaceful playlist mix «</text>
+  <text x="526" y="222" text-anchor="middle" class="copy">weekly playlist refresh is ready</text>
+  <text x="526" y="256" text-anchor="middle" class="tiny">ON ROTATION · APPLE MUSIC PLAYLIST</text>
   <path d="M298 287h455" stroke="#c9addb" stroke-width="6" stroke-linecap="round"/><path d="M298 287h168" stroke="#62d9e5" stroke-width="6" stroke-linecap="round"/><circle cx="466" cy="287" r="9" fill="#ff8fbd" stroke="#3d1977" stroke-width="3"/>
-  <text x="298" y="329" class="copy">0:08 ─〇───── 1:00</text><text x="298" y="366" class="title">⇄ ◃◃ ⅠⅠ ▹▹ ↻</text>
+  <text x="526" y="329" text-anchor="middle" class="copy">0:08 ─〇───── 1:00</text><text x="526" y="366" text-anchor="middle" class="title">⇄ ◃◃ ⅠⅠ ▹▹ ↻</text>
 </svg>
