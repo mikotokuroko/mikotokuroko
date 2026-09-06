@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Art corner</title>
+  <desc id="desc">A jewel-toned desktop art window featuring hoi's supplied original character artwork.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6edee4"/><stop offset=".46" stop-color="#d1f29d"/><stop offset="1" stop-color="#ff9ebd"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".42"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#ffe4ed" stop-opacity=".28"/></linearGradient>
+    <clipPath id="art"><rect x="38" y="91" width="884" height="423" rx="16"/></clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#2a275a" flood-opacity=".34"/></filter>
+    <style>text{font-family:ui-rounded,"SF Pro Rounded","SF Pro",system-ui,sans-serif}.label{fill:#3b2f70;font-size:16px;font-weight:700;letter-spacing:2px}.small{fill:#574584;font-family:ui-monospace,"SF Mono",monospace;font-size:13px;letter-spacing:1.5px}</style>
+  </defs>
+  <rect x="12" y="12" width="936" height="536" rx="26" fill="url(#frame)" filter="url(#shadow)"/>
+  <rect x="27" y="27" width="906" height="48" rx="14" fill="#f8b2ca" stroke="#3b2f70" stroke-width="5"/>
+  <circle cx="55" cy="51" r="8" fill="#72ead8"/><circle cx="80" cy="51" r="8" fill="#fff09d"/><circle cx="105" cy="51" r="8" fill="#c9a8ff"/>
+  <text x="143" y="57" class="label">ART CORNER / LITTLE TREASURES</text>
+  <text x="753" y="57" class="small">✦ PINNED ✦</text>
+  <image href="art-corner.jpg" x="38" y="91" width="884" height="423" preserveAspectRatio="xMidYMid slice" clip-path="url(#art)"/>
+  <rect x="38" y="91" width="884" height="423" rx="16" fill="url(#glass)"/>
+  <path d="M53 497l168-406h113L165 514H53z" fill="#fff" opacity=".14"/>
+  <path d="M746 91h74L657 514h-72z" fill="#fff" opacity=".11"/>
+  <rect x="38" y="91" width="884" height="423" rx="16" fill="none" stroke="#3b2f70" stroke-width="5"/>
+  <g fill="#fff7c6"><path d="M878 113l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/><path d="M73 451l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/></g>
+</svg>

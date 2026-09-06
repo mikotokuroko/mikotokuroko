@@ -1,0 +1,63 @@
+name: Refresh personal desktop
+
+on:
+  schedule:
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare generated-asset directory
+        run: mkdir -p .generated
+
+      - name: Render on-rotation card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: .generated/on-rotation.svg
+          token: NOT_NEEDED
+          base: ""
+          template: "@needy-player"
+          setup_community_templates: "mikotokuroko/mikotokuroko@master:needy-player"
+          plugin_music: yes
+          plugin_music_mode: playlist
+          plugin_music_playlist: https://embed.music.apple.com/mo/playlist/peaceful/pl.u-MDAWWjguWLNb69v?l=en
+          plugin_music_limit: 1
+
+      - name: Render Steam recent card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: .generated/steam-recent.svg
+          token: NOT_NEEDED
+          base: ""
+          template: "@needy-steam"
+          setup_community_templates: "mikotokuroko/mikotokuroko@master:needy-steam"
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: "76561199045338784"
+          plugin_steam_sections: recently-played
+          plugin_steam_recent_games_limit: 10
+          plugin_steam_achievements_limit: 0
+
+      - name: Keep only valid cards
+        run: |
+          test -s .generated/on-rotation.svg
+          test -s .generated/steam-recent.svg
+          ! grep -q "NO_MUSIC_DATA" .generated/on-rotation.svg
+          ! grep -q "NO_STEAM_DATA" .generated/steam-recent.svg
+          mv .generated/on-rotation.svg assets/on-rotation.svg
+          mv .generated/steam-recent.svg assets/steam-recent.svg
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/on-rotation.svg assets/steam-recent.svg
+          git diff --cached --quiet || git commit -m "Refresh personal desktop cards"
+          git push
