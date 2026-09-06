@@ -6,7 +6,7 @@
 
 <img src="assets/steam-recent.svg" width="100%" alt="Steam Recent window showing hoi's most recently played game.">
 
-<img src="assets/art-corner.svg" width="100%" alt="Art Corner window featuring hoi's character artwork.">
+<img src="assets/art-corner.jpg" width="100%" alt="Art Corner featuring hoi's character artwork.">
 
 <p align="center"><sub>Player frame: <a href="https://github.com/lezzthanthree/Needy-Streamer-Overload">Needy Streamer Overload</a> (MIT).</sub></p>
 
