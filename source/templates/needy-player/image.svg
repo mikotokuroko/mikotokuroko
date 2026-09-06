@@ -18,10 +18,10 @@
       <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#2d1768" flood-opacity=".3"/>
     </filter>
     <style>
-      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      text { font-family: ui-rounded, "SF Pro Rounded", "SF Pro", system-ui, sans-serif; }
       .title { fill: #3d1977; font-size: 26px; font-weight: 700; }
       .copy { fill: #5c3982; font-size: 18px; }
-      .tiny { fill: #72538f; font-size: 14px; letter-spacing: 1px; }
+      .tiny { fill: #72538f; font-family: ui-monospace, "SF Mono", monospace; font-size: 14px; letter-spacing: 1px; }
     </style>
   </defs>
   <image href="third-party/needy-streamer-window.png" width="960" height="408" preserveAspectRatio="none"/>
