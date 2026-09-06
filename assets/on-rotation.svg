@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="408" viewBox="0 0 960 408" role="img" aria-labelledby="title desc">
+  <title id="title">On rotation</title>
+  <desc id="desc">A pastel music player, ready to receive a track from hoi's public Apple Music playlist.</desc>
+  <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.title{fill:#3d1977;font-size:26px;font-weight:700}.copy{fill:#5c3982;font-size:18px}.tiny{fill:#72538f;font-size:14px;letter-spacing:1px}</style>
+  <image href="third-party/needy-streamer-window.png" width="960" height="408" preserveAspectRatio="none"/>
+  <rect x="54" y="102" width="202" height="202" rx="9" fill="#ff9fc9"/>
+  <path d="M82 264c35-76 80-76 146 0" fill="none" stroke="#8ce9ef" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="122" cy="193" r="20" fill="#fff0fa"/><circle cx="189" cy="193" r="20" fill="#fff0fa"/>
+  <text x="298" y="142" class="tiny">✩♬ ₊˚.🎧⋆☾⋆⁺₊✧</text>
+  <text x="298" y="190" class="title">» peaceful playlist mix «</text>
+  <text x="298" y="222" class="copy">weekly playlist refresh is ready</text>
+  <text x="298" y="256" class="tiny">ON ROTATION · APPLE MUSIC PLAYLIST</text>
+  <path d="M298 287h455" stroke="#c9addb" stroke-width="6" stroke-linecap="round"/><path d="M298 287h168" stroke="#62d9e5" stroke-width="6" stroke-linecap="round"/><circle cx="466" cy="287" r="9" fill="#ff8fbd" stroke="#3d1977" stroke-width="3"/>
+  <text x="298" y="329" class="copy">0:08 ─〇───── 1:00</text><text x="298" y="366" class="title">⇄ ◃◃ ⅠⅠ ▹▹ ↻</text>
+</svg>

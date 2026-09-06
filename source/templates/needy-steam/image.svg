@@ -1,0 +1,40 @@
+<%
+  const recentGames = plugins.steam?.games?.["recently-played"] || []
+  const featuredGames = ["cyberpunk 2077", "stardew valley", "wallpaper engine"]
+  const game = recentGames.find(({name = ""}) => featuredGames.includes(name.toLowerCase())) || recentGames[0]
+  const escapeXml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&apos;"})[character])
+  const truncate = (value, length = 36) => value.length > length ? `${value.slice(0, length - 1)}…` : value
+  const title = game ? truncate(game.name || "untitled") : "NO_STEAM_DATA"
+  const playtime = game ? `${Math.round(Number(game.playtime || 0))} hours played` : "add STEAM_TOKEN to refresh"
+  const icon = game?.icon || ""
+%>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="408" viewBox="0 0 960 408" role="img" aria-labelledby="title description">
+  <title id="title">Steam recent</title>
+  <desc id="description">Hoi's most recently played Steam game.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#49316f"/><stop offset="1" stop-color="#d175a5"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ee3e7"/><stop offset="1" stop-color="#f8a3c3"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#24133f" flood-opacity=".32"/></filter>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .title { fill: #fff0fa; font-size: 29px; font-weight: 700; }
+      .copy { fill: #f7d9ed; font-size: 19px; }
+      .tiny { fill: #9ff2ed; font-size: 14px; letter-spacing: 1.4px; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="936" height="384" rx="24" fill="url(#card)" filter="url(#shadow)"/>
+  <rect x="34" y="34" width="892" height="43" rx="13" fill="#f79cbd" stroke="#271744" stroke-width="5"/>
+  <circle cx="59" cy="55" r="8" fill="#88ebdb"/><circle cx="84" cy="55" r="8" fill="#ffdc8a"/><circle cx="109" cy="55" r="8" fill="#caa8ff"/>
+  <text x="146" y="61" fill="#3d1e68" font-size="16" font-family="ui-monospace, monospace" letter-spacing="2">STEAM / RECENT GAMES</text>
+  <rect x="58" y="108" width="236" height="236" rx="18" fill="url(#cover)" stroke="#271744" stroke-width="5"/>
+  <% if (icon) { %><image href="<%= escapeXml(icon) %>" x="58" y="108" width="236" height="236" preserveAspectRatio="xMidYMid slice" clip-path="url(#art)"/><% } %>
+  <clipPath id="art"><rect x="58" y="108" width="236" height="236" rx="18"/></clipPath>
+  <text x="334" y="151" class="tiny">✧ RECENTLY PLAYED · HOURS LOGGED ✧</text>
+  <text x="334" y="207" class="title">» <%= escapeXml(title) %> «</text>
+  <text x="334" y="240" class="copy"><%= escapeXml(playtime) %></text>
+  <path d="M334 275h455" stroke="#bba3de" stroke-width="6" stroke-linecap="round"/>
+  <path d="M334 275h250" stroke="#83ece4" stroke-width="6" stroke-linecap="round"/>
+  <text x="334" y="324" class="copy">◃◃  PLAY SESSION  ▹▹</text>
+  <circle cx="821" cy="320" r="8" fill="#80eed0"/><text x="841" y="326" class="tiny">ONLINE</text>
+  <path d="M34 369h892" stroke="#f6b1ce" stroke-width="4" opacity=".65"/>
+</svg>

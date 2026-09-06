@@ -1,0 +1,9 @@
+name: Needy player
+extends: classic
+description: Personal Apple Music playlist card for mikotokuroko's profile.
+examples:
+  default: https://via.placeholder.com/960x408.png?text=Needy+player
+supports:
+  - user
+formats:
+  - svg

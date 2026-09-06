@@ -1,0 +1,9 @@
+name: Needy steam
+extends: classic
+description: Personal Steam recent-game card for mikotokuroko's profile.
+examples:
+  default: https://via.placeholder.com/960x408.png?text=Needy+steam
+supports:
+  - user
+formats:
+  - svg
