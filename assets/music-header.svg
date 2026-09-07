@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="54" viewBox="0 0 560 72" role="img" aria-labelledby="title description">
+<title id="title">on rotation</title>
+<desc id="description">A pixel media icon beside on rotation, inside a pink, purple, and cyan desktop window title bar.</desc>
+<path d="M4 4h554v66H4z" fill="#4D23CF" opacity=".5"/>
+<path d="M1 1h553v64H1z" fill="#90F4E4" stroke="#4D23CF" stroke-width="2"/>
+<path d="M7 7h541v51H7z" fill="#F0D1F1" stroke="#4D23CF" stroke-width="2"/>
+<image x="16" y="9" width="48" height="48" image-rendering="pixelated" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURU0jz8lSkE0hy////wAAAPqj+6MAAAAFdFJOU/////8A+7YOUwAAAAlwSFlzAAAOwwAADsMBx2+oZAAAALNJREFUWEft0kEOwyAMRFFKuf+Zo8ETiBWkFMdmUfEWJSX2VxdN5SWvQDLgJg8DbtaP9DGQhEfAtg5IeAbyBNnwDeT8nSCJHdiB6AD+rnwcWhMAfr2JCXQ9AOeKFhGQQcGphtfN+gDwVRUT6MYBfR8R4K+rOKXwVbU+wOsmJtDpwLmiRQRkUHBK3V2tCfBxKD7wZAd2AP4zgMTvZMM7MM8rYE1g3SuAxDxu8jDgphx2LwOlHKeYI5G37IzxAAAAAElFTkSuQmCC"/>
+<path fill="#4D23CF" transform="translate(80 26) scale(2)" d="M42 0h1v1h-1zM26 1h1v1h-1zM36 1h1v1h-1zM26 2h1v1h-1zM36 2h1v1h-1zM1 3h2v1h-2zM5 3h3v1h-3zM15 3h1v1h-1zM17 3h2v1h-2zM21 3h2v1h-2zM25 3h4v1h-4zM31 3h2v1h-2zM35 3h4v1h-4zM41 3h2v1h-2zM46 3h2v1h-2zM50 3h3v1h-3zM0 4h1v1h-1zM3 4h1v1h-1zM5 4h1v1h-1zM8 4h1v1h-1zM15 4h2v1h-2zM20 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM33 4h1v1h-1zM36 4h1v1h-1zM42 4h1v1h-1zM45 4h1v1h-1zM48 4h1v1h-1zM50 4h1v1h-1zM53 4h1v1h-1zM0 5h1v1h-1zM3 5h1v1h-1zM5 5h1v1h-1zM8 5h1v1h-1zM15 5h1v1h-1zM20 5h1v1h-1zM23 5h1v1h-1zM26 5h1v1h-1zM31 5h3v1h-3zM36 5h1v1h-1zM42 5h1v1h-1zM45 5h1v1h-1zM48 5h1v1h-1zM50 5h1v1h-1zM53 5h1v1h-1zM0 6h1v1h-1zM3 6h1v1h-1zM5 6h1v1h-1zM8 6h1v1h-1zM15 6h1v1h-1zM20 6h1v1h-1zM23 6h1v1h-1zM26 6h1v1h-1zM30 6h1v1h-1zM33 6h1v1h-1zM36 6h1v1h-1zM42 6h1v1h-1zM45 6h1v1h-1zM48 6h1v1h-1zM50 6h1v1h-1zM53 6h1v1h-1zM1 7h2v1h-2zM5 7h1v1h-1zM8 7h1v1h-1zM15 7h1v1h-1zM21 7h2v1h-2zM27 7h2v1h-2zM31 7h3v1h-3zM37 7h2v1h-2zM41 7h3v1h-3zM46 7h2v1h-2zM50 7h1v1h-1zM53 7h1v1h-1z"/>
+<g fill="none" stroke="#4D23CF" stroke-width="2">
+<path d="M489 24h14v14h-14zM509 24h14v14h-14zM529 24h14v14h-14z"/>
+<path d="M492 35h8M512 27h8v8h-8zM532 27l8 8m0-8-8 8"/>
+</g>
+</svg>

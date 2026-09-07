@@ -1,19 +1,50 @@
-<img src="assets/cozy-room.svg" width="100%" alt="A dreamy pastel creative room at sunset with glowing screens, plants, books, music controls, and a sleeping desktop creature.">
 
-<p align="center">hoi — building playful tools for macOS, the web, and Codex.</p>
+<p align="center">
+  <img src="assets/greeting.svg" width="560" alt="A pastel creative room at sunset with glowing screens, plants, books, and a sleeping desktop creature.">
+</p>
 
-<img src="assets/on-rotation.svg" width="100%" alt="On Rotation music player window with a random track from hoi's Apple Music playlist.">
 
-<img src="assets/steam-recent.svg" width="100%" alt="Steam Recent window showing hoi's most recently played game.">
+<p align="center">
+  <img src="assets/cozy-room.svg" width="560" alt="A pastel creative room at sunset with glowing screens, plants, books, and a sleeping desktop creature.">
+</p>
 
-<img src="assets/art-corner.jpg" width="100%" alt="Art Corner featuring hoi's character artwork.">
 
-<p align="center"><sub>Player frame: <a href="https://github.com/lezzthanthree/Needy-Streamer-Overload">Needy Streamer Overload</a> (MIT).</sub></p>
 
-[**Apple Music Local**](https://github.com/mikotokuroko/apple-music-local-plugin) — control a personal Apple Music library from a local Codex session.
+## Things I build
 
-[**Ark Codex Deskpet**](https://github.com/mikotokuroko/Ark-codex-skill) — animated Arknights-inspired desktop pets for macOS.
+- [Apple Music Local](https://github.com/mikotokuroko/apple-music-local-plugin) — Control your Apple Music library from a local Codex session.
+- [Ark Codex Deskpet](https://github.com/mikotokuroko/Ark-codex-skill) — Animated Arknights-inspired desktop pets for macOS.
+- [Safari Dark Mode](https://github.com/mikotokuroko/safari-dark-mode) — A focused dark-mode extension for Safari.
 
-[**Safari Dark Mode**](https://github.com/mikotokuroko/safari-dark-mode) — a focused dark-mode extension for Safari.
+## Off the clock
 
-<p align="center"><sub>@mikotokuroko</sub></p>
+### On rotation
+
+A weekly pick from my Apple Music playlist.
+
+<!-- MUSIC:START -->
+<!-- MUSIC:END -->
+
+[Open my playlist](https://embed.music.apple.com/mo/playlist/peaceful/pl.u-MDAWWjguWLNb69v?l=en)
+
+### Recently played
+
+<!-- STEAM:START -->
+<!-- STEAM:END -->
+
+[My Steam profile](https://steamcommunity.com/profiles/76561199045338784)
+
+## Art corner
+
+<p align="center">
+  <img src="assets/art-corner.jpg" width="420" alt="Character artwork from hoi’s art corner.">
+</p>
+
+A little artwork from my corner of the internet.
+
+<details>
+<summary>Credits</summary>
+
+The retained [media-player frame](assets/third-party/needy-streamer-window.png), used in the former music card, comes from [Needy Streamer Overload](https://github.com/lezzthanthree/Needy-Streamer-Overload) (MIT). See the [asset attribution](assets/third-party/README.md).
+
+</details>

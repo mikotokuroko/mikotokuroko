@@ -1,46 +1,8 @@
 <%
   const track = plugins.music?.tracks?.[0]
-  const escapeXml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&apos;"})[character])
-  const truncate = (value, length = 34) => value.length > length ? `${value.slice(0, length - 1)}…` : value
-  const title = track ? truncate(track.name || "untitled") : "NO_MUSIC_DATA"
-  const artist = track ? truncate(track.artist || "unknown artist", 40) : "add a public Apple Music playlist"
-  const artwork = track?.artwork || ""
+  const escapeXml = (value) => String(value).replace(/[&<>"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&apos;"})[character])
+  const data = track ? {title: track.name, artist: track.artist, artwork: track.artwork || ""} : null
 %>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="408" viewBox="0 0 960 408" role="img" aria-labelledby="title description">
-  <title id="title">On rotation</title>
-  <desc id="description">A randomly selected track from hoi's public Apple Music playlist.</desc>
-  <defs>
-    <linearGradient id="placeholder" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#ff9fc9"/>
-      <stop offset="1" stop-color="#8ce9ef"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#2d1768" flood-opacity=".3"/>
-    </filter>
-    <style>
-      text { font-family: ui-rounded, "SF Pro Rounded", "SF Pro", system-ui, sans-serif; }
-      .title { fill: #3d1977; font-size: 26px; font-weight: 700; }
-      .copy { fill: #5c3982; font-size: 18px; }
-      .tiny { fill: #72538f; font-family: ui-monospace, "SF Mono", monospace; font-size: 14px; letter-spacing: 1px; }
-    </style>
-  </defs>
-  <image href="third-party/needy-streamer-window.png" width="960" height="408" preserveAspectRatio="none"/>
-  <g filter="url(#shadow)">
-    <rect x="54" y="102" width="202" height="202" rx="9" fill="url(#placeholder)"/>
-    <% if (artwork) { %><image href="<%= escapeXml(artwork) %>" x="54" y="102" width="202" height="202" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover)"/><% } %>
-  </g>
-  <% if (!artwork) { %><circle cx="155" cy="203" r="66" fill="#3d1977" stroke="#8ce9ef" stroke-width="8"/><circle cx="155" cy="203" r="43" fill="none" stroke="#a98dd1" stroke-width="5"/><circle cx="155" cy="203" r="13" fill="#ff9fc9"/><path d="M194 142v55c0 15-19 18-19 4 0-10 14-10 19-3" fill="none" stroke="#fff0fa" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><% } %>
-  <clipPath id="cover"><rect x="54" y="102" width="202" height="202" rx="9"/></clipPath>
-  <path d="M54 315h202" stroke="#8ae8ee" stroke-width="9" stroke-linecap="round"/>
-  <text x="526" y="142" text-anchor="middle" class="tiny">✩♬ ₊˚.🎧⋆☾⋆⁺₊✧</text>
-  <text x="526" y="190" text-anchor="middle" class="title">» <%= escapeXml(title) %> «</text>
-  <text x="526" y="222" text-anchor="middle" class="copy"><%= escapeXml(artist) %></text>
-  <text x="526" y="256" text-anchor="middle" class="tiny">ON ROTATION · APPLE MUSIC PLAYLIST</text>
-  <path d="M298 287h455" stroke="#c9addb" stroke-width="6" stroke-linecap="round"/>
-  <path d="M298 287h168" stroke="#62d9e5" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="466" cy="287" r="9" fill="#ff8fbd" stroke="#3d1977" stroke-width="3"/>
-  <text x="526" y="329" text-anchor="middle" class="copy">0:08 ─〇───── 1:00</text>
-  <text x="526" y="366" text-anchor="middle" class="title">⇄ ◃◃ ⅠⅠ ▹▹ ↻</text>
-  <circle cx="828" cy="342" r="7" fill="#72e8d1"/>
-  <text x="846" y="348" class="tiny">LOCAL</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1">
+  <metadata id="profile-data"><%= escapeXml(JSON.stringify(data)) %></metadata>
 </svg>
