@@ -1,4 +1,4 @@
-name: Refresh personal desktop
+name: Refresh profile activity
 
 on:
   schedule:
@@ -14,30 +14,39 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepare generated-asset directory
-        run: mkdir -p .generated
-
-      - name: Render on-rotation card
+      - name: Fetch music metadata
+        id: music
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: .generated/on-rotation.svg
+          output_action: none
+          optimize: no
+          config_base64: no
+          plugins_errors_fatal: yes
           token: NOT_NEEDED
           base: ""
           template: "@needy-player"
-          setup_community_templates: "mikotokuroko/mikotokuroko@master:needy-player"
+          setup_community_templates: "${{ github.repository }}@${{ github.sha }}:needy-player"
           plugin_music: yes
           plugin_music_mode: playlist
           plugin_music_playlist: https://embed.music.apple.com/mo/playlist/peaceful/pl.u-MDAWWjguWLNb69v?l=en
           plugin_music_limit: 1
 
-      - name: Render Steam recent card
+      - name: Fetch Steam metadata
+        id: steam
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: .generated/steam-recent.svg
+          output_action: none
+          optimize: no
+          config_base64: no
+          plugins_errors_fatal: yes
           token: NOT_NEEDED
           base: ""
           template: "@needy-steam"
-          setup_community_templates: "mikotokuroko/mikotokuroko@master:needy-steam"
+          setup_community_templates: "${{ github.repository }}@${{ github.sha }}:needy-steam"
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: "76561199045338784"
@@ -45,19 +54,26 @@ jobs:
           plugin_steam_recent_games_limit: 10
           plugin_steam_achievements_limit: 0
 
-      - name: Keep only valid cards
+      - name: Update README activity regions
+        env:
+          MUSIC_OUTCOME: ${{ steps.music.outcome }}
+          STEAM_OUTCOME: ${{ steps.steam.outcome }}
         run: |
-          test -s .generated/on-rotation.svg
-          test -s .generated/steam-recent.svg
-          ! grep -q "NO_MUSIC_DATA" .generated/on-rotation.svg
-          ! grep -q "NO_STEAM_DATA" .generated/steam-recent.svg
-          mv .generated/on-rotation.svg assets/on-rotation.svg
-          mv .generated/steam-recent.svg assets/steam-recent.svg
+          args=()
+          if [[ "$MUSIC_OUTCOME" == "success" ]]; then
+            args+=(--music /metrics_renders/.generated/on-rotation.svg)
+          fi
+          if [[ "$STEAM_OUTCOME" == "success" ]]; then
+            args+=(--steam /metrics_renders/.generated/steam-recent.svg)
+          fi
+          python3 scripts/update_profile.py "${args[@]}"
 
-      - name: Commit refreshed cards
+      - name: Commit refreshed README
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/on-rotation.svg assets/steam-recent.svg
-          git diff --cached --quiet || git commit -m "Refresh personal desktop cards"
-          git push
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Refresh profile activity"
+            git push
+          fi

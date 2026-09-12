@@ -1,8 +1,6 @@
-name: Needy player
+name: needy-player
 extends: classic
-description: Personal Apple Music playlist card for mikotokuroko's profile.
-examples:
-  default: https://via.placeholder.com/960x408.png?text=Needy+player
+description: Temporary profile activity metadata for the README updater.
 supports:
   - user
 formats:
