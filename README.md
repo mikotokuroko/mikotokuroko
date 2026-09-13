@@ -1,64 +1,104 @@
-<p align="center">
-  <img src="assets/greeting.svg" width="560" alt="Animated greeting window with multilingual hellos, a short introduction from lam, and a LOVE FOREVER sticker.">
-</p>
 
-<h3 align="center">⋆⋆✮♪♫🎧♫♪✮⋆⋆</h3>
-<p align="center">
-  » [Disorder and Early Sorrow] «<br>
-  0:08 ─〇───── 1:00<br>
-  ⇄ ◃◃ ⅠⅠ ▹▹ ↻
-</p>
-
-<table width="100%">
-  <tr>
-    <td width="60%" valign="top" align="center"><!--
-      <h2>Projects</h2>
-      <img src="assets/projects-window.svg" width="480" alt="A projects window listing Apple Music Local, Ark Codex Deskpet, and Safari Dark Mode.">
-      --><img src="assets/free-window.svg" width="480" alt="A free-time window about being a night person, sleeping in, gaming, and travel."><br><a href="https://steamcommunity.com/profiles/76561199045338784"><img src="assets/gaming-window.svg" width="480" alt="A rotating games window featuring Cyberpunk 2077, Stardew Valley, Pokopia, and Splatoon 3."></a></td>
-    <td width="40%" valign="top">
-      <p>I LOVE sleeping, gaming and travelling.</p>
-      <p><code>freetime.sort(Comparator.comparingInt(freetime -&gt; freetime.priority));</code></p>
-      <p>I build mods for games like Minecraft and Stardew (I'm a TMS; my favorite build is a TNT duper flying machine).</p>
-      <p>I also built a Genshin rogue DLC!</p>
-      <p><img src="https://img.shields.io/badge/Unity-black?style=flat-square" alt="Unity badge"> <img src="https://img.shields.io/badge/C%23-purple?style=flat-square" alt="C# badge"></p>
-    </td>
-  </tr>
-</table>
 
 <p align="center">
-  <img src="assets/artwork-window.svg" width="560" alt="A desktop window framing Elaria, lam's original character, in a colorful outdoor scene.">
-</p>
-<p align="center">This is Elaria, more artwork coming up...</p>
-
-<p align="center">
-  <img src="assets/contact-window.svg" width="560" alt="A contact window with a friendly greeting and email and GitHub details.">
-</p>
-<p align="center">
-  <a href="mailto:mikolam.dev@gmail.com">mikolam.dev@gmail.com</a> ·
-  <a href="https://github.com/mikotokuroko">github.com/mikotokuroko</a>
+  <img src="assets/greeting.svg" width="640" alt="An animated hello from lam, with multilingual greetings and a LOVE FOREVER sticker.">
 </p>
 
-<!--
+<p align="center">
+  <a href="#hey-im-lam">about me</a> &nbsp; / &nbsp;
+  <a href="#after-hours">after hours</a> &nbsp; / &nbsp;
+  <a href="#art-corner">art</a> &nbsp; / &nbsp;
+  <a href="#say-hello">say hello</a>
+</p>
+
+<br>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=DotGothic16&pause=1000&color=F0A5F7&width=435&lines=guess+where+im+from++%EF%BD%B7%EF%BE%80%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E3%83%BD%28%EF%BE%9F%E2%88%80%EF%BE%9F+%29%EF%BE%89%EF%BE%86%EF%BE%94%EF%BE%86%EF%BE%94" alt="Typing SVG" /></a>
+
+
+<img align="left" src="https://mikotokuroko-visitor-counter.hoicheoklam.workers.dev/views.svg" width="340" height="204" hspace="24" alt="Visitor count — thanks for stopping by.">
+
+<a name="hey-im-lam"></a>
+
+### Hey, I'm lam ^^
+
+**Studying** · Computer science<br>@ University of Melbourne
+
+**I speak** · Cantonese, English & Mandarin.<br>
+
+
+**I type** · C# · Java · JavaScript · Python<br>
+
+**Learning** · French, Swift, and bunch of random stuff
+
+<br clear="all">
+
+I’m into **game development, modding, plugins, and extensions**. I love my pets, including the desktop pets.
+<br>
+
+## After hours
+
+<img align="left" src="assets/free-window.svg" width="360" hspace="24" alt="Free time: a night person who loves sleeping, gaming, and travelling.">
+
+### Very much a night person.
+
+Sleeping in, staying up, and getting lost somewhere. Usually in a game; sometimes in a new city.
+
+My free time has three competing priorities: **sleeping, gaming, and travelling**. The order is negotiable.
+
+<br clear="all">
+<br>
+
+<img align="right" src="assets/gaming-window.svg" width="360" hspace="24" alt="A few favourites: Cyberpunk 2077, Stardew Valley, Pokopia, and Splatoon 3.">
+
+### Sometimes I play. Sometimes I mod.
+
+I make mods for **Minecraft and Stardew Valley**, and I’ve also built a **Genshin roguelike DLC**.
+
+In technical Minecraft, my favourite build is a **TNT-duper flying machine** |'ω')ﾉ⌒゜ &#x1F4A3; ﾎﾟｲｯ
+
+**Made with** · Unity & C#
+
+<br clear="all">
+
+<br>
+
+## Art corner
+
+Meet **Elaria**, my original character. A little piece of the world in my head.
+
+<p align="center">
+  <img src="assets/artwork-window.svg" width="680" alt="Elaria, my original character, in a colourful outdoor scene framed by a pastel desktop window.">
+</p>
+<p align="center"><em>More of her story, and more artwork, to come.</em></p>
+
+<br>
+
+## Say hello
+
+<img align="left" src="assets/contact-window.svg" width="380" hspace="24" alt="Say hello to lam at mikolam.dev@gmail.com or on GitHub as mikotokuroko.">
+
+<h3 align="center">Thanks for stopping by ♡<br><br>See you around.</h3>
+<p align="center">
+  <a href="mailto:mikolam.dev@gmail.com">Send me a note ↗</a> &nbsp; · &nbsp;
+  <a href="https://github.com/mikotokuroko">GitHub ↗</a>
+</p>
+
+<br clear="all">
+<br>
+
 <details>
-<summary>Activity</summary>
+<summary>A peek at my GitHub activity</summary>
 
-<h3>On rotation</h3>
-
-
-[Open my playlist](https://embed.music.apple.com/mo/playlist/peaceful/pl.u-MDAWWjguWLNb69v?l=en)
-
-<h3>Recently played</h3>
-
-
-
-[My Steam profile](https://steamcommunity.com/profiles/76561199045338784)
+<p align="center">
+  <img src="https://gitglance.hoicheoklam.workers.dev/api/rings?username=mikotokuroko&amp;style=glass&amp;theme=kangel&amp;v=fonts2" width="560" alt="My GitHub activity and language statistics.">
+</p>
 
 </details>
 
 <details>
 <summary>Credits</summary>
 
-The retained [media-player frame](assets/third-party/needy-streamer-window.png), used in the former music card, comes from [Needy Streamer Overload](https://github.com/lezzthanthree/Needy-Streamer-Overload) (MIT). See the [asset attribution](assets/third-party/README.md).
+The [media-player frame](assets/third-party/needy-streamer-window.png) comes from [Needy Streamer Overload](https://github.com/lezzthanthree/Needy-Streamer-Overload) (MIT). See the [asset attribution](assets/third-party/README.md).
 
 </details>
--->
