@@ -16,7 +16,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=DotGothic16&pause=1000&color=F0A5F7&width=435&lines=guess+where+im+from++%EF%BD%B7%EF%BE%80%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E3%83%BD%28%EF%BE%9F%E2%88%80%EF%BE%9F+%29%EF%BE%89%EF%BE%86%EF%BE%94%EF%BE%86%EF%BE%94" alt="Typing SVG" /></a>
 
 
-<img align="left" src="https://mikotokuroko-visitor-counter.hoicheoklam.workers.dev/views.svg" width="340" height="204" hspace="24" alt="Visitor count — thanks for stopping by.">
+<img align="left" src="https://mikotokuroko-visitor-counter.hoicheoklam.workers.dev/views.svg" width="340" height="204" alt="Visitor count — thanks for stopping by.">
 
 <a name="hey-im-lam"></a>
 
@@ -38,7 +38,7 @@ I’m into **game development, modding, plugins, and extensions**. I love my pet
 
 ## After hours
 
-<img align="left" src="assets/free-window.svg" width="360" hspace="24" alt="Free time: a night person who loves sleeping, gaming, and travelling.">
+<img align="left" src="assets/free-window.svg" width="360" alt="Free time: a night person who loves sleeping, gaming, and travelling.">
 
 ### Very much a night person.
 
@@ -49,7 +49,7 @@ My free time has three competing priorities: **sleeping, gaming, and travelling*
 <br clear="all">
 <br>
 
-<img align="right" src="assets/gaming-window.svg" width="360" hspace="24" alt="A few favourites: Cyberpunk 2077, Stardew Valley, Pokopia, and Splatoon 3.">
+<img align="right" src="assets/gaming-window.svg" width="360" alt="A few favourites: Cyberpunk 2077, Stardew Valley, Pokopia, and Splatoon 3.">
 
 ### Sometimes I play. Sometimes I mod.
 
@@ -76,7 +76,7 @@ Meet **Elaria**, my original character. A little piece of the world in my head.
 
 ## Say hello
 
-<img align="left" src="assets/contact-window.svg" width="380" hspace="24" alt="Say hello to lam at mikolam.dev@gmail.com or on GitHub as mikotokuroko.">
+<img align="left" src="assets/contact-window.svg" width="380" alt="Say hello to lam at mikolam.dev@gmail.com or on GitHub as mikotokuroko.">
 
 <h3 align="center">Thanks for stopping by ♡<br><br>See you around.</h3>
 <p align="center">
