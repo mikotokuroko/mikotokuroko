@@ -16,7 +16,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=DotGothic16&pause=1000&color=F0A5F7&width=435&lines=guess+where+im+from++%EF%BD%B7%EF%BE%80%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E3%83%BD%28%EF%BE%9F%E2%88%80%EF%BE%9F+%29%EF%BE%89%EF%BE%86%EF%BE%94%EF%BE%86%EF%BE%94" alt="Typing SVG" /></a>
 
 
-<img align="left" src="https://mikotokuroko-visitor-counter.hoicheoklam.workers.dev/views.svg" width="340" height="204" alt="Visitor count — thanks for stopping by.">
+<img align="left" src="https://mikotokuroko-visitor-counter.hoicheoklam.workers.dev/views.svg" width="340" alt="Visitor count — thanks for stopping by.">
 
 <a name="hey-im-lam"></a>
 
